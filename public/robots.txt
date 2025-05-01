@@ -1,3 +1,16 @@
 User-agent: *
 Allow: /
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://onlinetimer.live/sitemap.xml
+
+# Allow all bots full access
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+
+# Crawl-delay: 1
+# This website is optimized for fast loading and can handle frequent crawls
